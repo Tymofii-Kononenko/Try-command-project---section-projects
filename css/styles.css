@@ -36,20 +36,39 @@ ul {
     letter-spacing: 0.02em;
 }
 
+.header-list-studio {
+    color: #2e2f42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .header-list-link:hover,
 .header-list-link:focus {
     color: #404bbf;
 }
 
 /**Contacts*/
+.address-list {
+    font-style: normal;
+}
+
 .address-list-item {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.address-list-link:hover,
-.address-list-link:focus {
+.address-list-mail {
+    color: #434455;
+}
+
+.address-list-mail:hover,
+.address-list-mail:focus {
+    color: #404bbf;
+}
+
+.address-list-tel:hover,
+.address-list-tel:focus {
     color: #404bbf;
 }
 
@@ -64,6 +83,7 @@ ul {
     letter-spacing: 0.02em;
     line-height: 1.07;
     color: #ffffff;
+    text-align: center;
 }
 
 .title-button {
@@ -106,17 +126,21 @@ ul {
 }
 
 .team-title {
+    color: #2e2f42;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .team-subtitle {
+    background-color: #ffffff;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 .team-list-text {
@@ -127,17 +151,21 @@ ul {
 
 /**Section 4*/
 .portfolio-title {
+    color: #2e2f42;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .portfolio-subtitle {
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-list-text {
@@ -152,7 +180,7 @@ ul {
 
 /**Footer start*/
 .footer-logo {
-    color: #F4F4FD;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -162,8 +190,8 @@ ul {
     text-transform: uppercase;
 }
 
-.footer-logo span {
-    color: #4D5AE5;
+.footer-logo-web span {
+    color: #f4f4fd;
 }
 
 .footer-text {
