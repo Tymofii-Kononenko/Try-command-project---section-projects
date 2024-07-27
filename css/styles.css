@@ -13,6 +13,7 @@ ul {
     list-style: none;
 }
 
+/**Logo and menu of site*/
 .header-nav-logo {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -40,6 +41,7 @@ ul {
     color: #404bbf;
 }
 
+/**Contacts*/
 .address-list-item {
     color: #434455;
     line-height: 1.5;
@@ -51,6 +53,7 @@ ul {
     color: #404bbf;
 }
 
+/**Section 1*/
 .title {
     background-color: #2E2F42;
 }
@@ -81,6 +84,7 @@ ul {
     cursor: pointer;
 }
 
+/**Section 2*/
 .advantages-list-title {
     color: #2E2F42;
     font-weight: 500;
@@ -96,6 +100,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
+/**Section 3*/
 .team {
     background-color: #F4F4FD;
 }
@@ -120,6 +125,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
+/**Section 4*/
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -144,6 +150,7 @@ ul {
     background-color: #2e2f42;
 }
 
+/**Footer start*/
 .footer-logo {
     color: #F4F4FD;
     font-family: "Raleway", sans-serif;
