@@ -36,14 +36,14 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.header-list-studio {
+.header-list-link {
     color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.header-list-link:hover,
-.header-list-link:focus {
+.header-list-studio:hover,
+.header-list-studio:focus {
     color: #404bbf;
 }
 
@@ -129,17 +129,22 @@ ul {
     color: #2e2f42;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.5;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
 }
 
+.team-list {
+    color: #ffffff;
+}
+
 .team-subtitle {
+    color: #2e2f42;
     background-color: #ffffff;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -179,7 +184,7 @@ ul {
 }
 
 /**Footer start*/
-.footer-logo {
+.footer-logo-web {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
