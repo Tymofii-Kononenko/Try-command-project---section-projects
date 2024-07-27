@@ -62,13 +62,8 @@ ul {
     color: #434455;
 }
 
-.address-list-mail:hover,
-.address-list-mail:focus {
-    color: #404bbf;
-}
-
-.address-list-tel:hover,
-.address-list-tel:focus {
+.address-list-contact:hover,
+.address-list-contact:focus {
     color: #404bbf;
 }
 
