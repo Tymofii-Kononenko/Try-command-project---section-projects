@@ -58,7 +58,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.address-list-mail {
+.address-list-contact {
     color: #434455;
 }
 
@@ -131,11 +131,12 @@ ul {
 }
 
 .team-list-item {
-    color: #ffffff;
+    background-color: #ffffff;
 }
 
 .team-subtitle {
     color: #2e2f42;
+    text-align: center;
     background-color: #ffffff;
     font-weight: 500;
     font-size: 20px;
@@ -148,6 +149,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /**Section 4*/
