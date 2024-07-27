@@ -42,8 +42,8 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.header-list-studio:hover,
-.header-list-studio:focus {
+.header-list-link:hover,
+.header-list-link:focus {
     color: #404bbf;
 }
 
@@ -135,7 +135,7 @@ ul {
     text-transform: capitalize;
 }
 
-.team-list {
+.team-list-item {
     color: #ffffff;
 }
 
@@ -144,11 +144,12 @@ ul {
     background-color: #ffffff;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
 .team-list-text {
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -195,7 +196,7 @@ ul {
     text-transform: uppercase;
 }
 
-.footer-logo-web span {
+.footer-logo-studio {
     color: #f4f4fd;
 }
 
