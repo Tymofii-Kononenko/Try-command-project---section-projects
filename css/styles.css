@@ -102,8 +102,7 @@ ol {
 .header-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 
 .header-nav {
@@ -175,7 +174,7 @@ ol {
     background-color: #4D5AE5;
     display: block;
     border-radius: 4px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     border: none;
     cursor: pointer;
