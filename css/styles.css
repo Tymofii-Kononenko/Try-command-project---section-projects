@@ -316,8 +316,8 @@ ol {
 
 .position {
     padding: 32px 16px;
-    border-top: none;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 /**Footer start*/
@@ -337,6 +337,7 @@ ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .footer-logo-studio {
