@@ -67,6 +67,7 @@ ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .header-nav-logo span {
@@ -101,6 +102,8 @@ ol {
 .header-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-nav {
@@ -138,6 +141,8 @@ ol {
 /**Section 1*/
 .title {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .title-container {
@@ -146,8 +151,6 @@ ol {
     padding-left: auto;
     padding-right: auto;
 }
-
-.container-button {}
 
 .title-name {
     font-weight: bold;
@@ -191,7 +194,7 @@ ol {
 /**Section 2*/
 
 .advantages {
-    padding-top: 129px;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
