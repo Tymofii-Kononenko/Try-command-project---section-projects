@@ -13,7 +13,51 @@ ul {
     list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 /**Logo and menu of site*/
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-nav-logo {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -47,15 +91,39 @@ ul {
     color: #404bbf;
 }
 
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+
 /**Contacts*/
 .address-list {
+    display: flex;
     font-style: normal;
+    gap: 40px;
 }
 
 .address-list-item {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
+
 }
 
 .address-list-contact {
@@ -72,6 +140,15 @@ ul {
     background-color: #2E2F42;
 }
 
+.title-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.container-button {}
+
 .title-name {
     font-weight: bold;
     font-size: 56px;
@@ -79,6 +156,11 @@ ul {
     line-height: 1.07;
     color: #ffffff;
     text-align: center;
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-right: 0;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .title-button {
@@ -88,6 +170,13 @@ ul {
     letter-spacing: 0.04em;
     line-height: 1.5;
     background-color: #4D5AE5;
+    display: block;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
 }
 
 .title-button:hover,
@@ -100,12 +189,29 @@ ul {
 }
 
 /**Section 2*/
+
+.advantages {
+    padding-top: 129px;
+    padding-bottom: 120px;
+}
+
+.advantages-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.advantages-list-item {
+    width: calc((100% - 72px) / 4);
+}
+
 .advantages-list-title {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .advantages-list-text {
@@ -120,6 +226,10 @@ ul {
     background-color: #F4F4FD;
 }
 
+.team-container {
+    height: 732px;
+}
+
 .team-title {
     color: #2e2f42;
     font-weight: 700;
@@ -128,6 +238,13 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    padding-top: 120px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    padding-top: 72px;
 }
 
 .team-list-item {
@@ -142,6 +259,7 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-top: 32px;
 }
 
 .team-list-text {
@@ -150,9 +268,23 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    padding-top: 8px;
+    padding-bottom: 32px;
 }
 
 /**Section 4*/
+
+.portfolio {
+    padding: 120px 0;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+}
+
 .portfolio-title {
     color: #2e2f42;
     font-weight: 700;
@@ -161,6 +293,8 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
+    grid-column: 24px;
 }
 
 .portfolio-subtitle {
@@ -169,6 +303,7 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .portfolio-list-text {
@@ -177,12 +312,21 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.footer {
-    background-color: #2e2f42;
+.position {
+    padding: 32px 16px;
+    border-top: none;
+    border: 1px solid #e7e9fc;
 }
 
 /**Footer start*/
+.footer {
+    background-color: #2e2f42;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
 .footer-logo-web {
+    display: inline-block;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -202,4 +346,6 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 16px;
+    max-width: 264px;
 }
