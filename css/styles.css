@@ -85,7 +85,7 @@ ol {
     color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    adding: 24px 0;
+    padding: 24px 0;
 }
 
 .header-list-link:hover,
@@ -178,16 +178,13 @@ ol {
     height: 56px;
     border: none;
     cursor: pointer;
+    background: #4d5ae5;
     margin: 0 auto;
 }
 
-.title-button:hover,
-.title-button:focus {
+.tittle-button:hover,
+.tittle-button:focus {
     background-color: #404BBF;
-}
-
-.title-button {
-    cursor: pointer;
 }
 
 /**Section 2*/
@@ -226,6 +223,7 @@ ol {
 /**Section 3*/
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-container {
@@ -240,17 +238,26 @@ ol {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.person {
+    padding: 32px 0;
+    border-radius: 0px 0px 4px 4px;
+    background: #ffffff;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-list {
     display: flex;
     gap: 24px;
-    padding-top: 72px;
 }
 
 .team-list-item {
     background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-subtitle {
@@ -309,6 +316,7 @@ ol {
 }
 
 .portfolio-list-text {
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
