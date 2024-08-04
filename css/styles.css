@@ -68,12 +68,10 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    padding: 24px 0;
 }
 
 .header-nav-logo span {
     color: #2e2f42;
-    padding: 24px 0;
 }
 
 .header-list-item {
@@ -81,13 +79,13 @@ ol {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 24px 0;
 }
 
 .header-list-link {
     color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    adding: 24px 0;
 }
 
 .header-list-link:hover,
