@@ -68,10 +68,12 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .header-nav-logo span {
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .header-list-item {
