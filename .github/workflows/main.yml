@@ -1,0 +1,17 @@
+name: Revert to previous commit
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  revert:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Revert to previous commit
+      run: |
+        git fetch origin
+        git reset --hard <commit-hash>
+        git push origin HEAD --force
