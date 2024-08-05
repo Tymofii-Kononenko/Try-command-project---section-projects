@@ -226,7 +226,7 @@ ol {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .person {
@@ -256,7 +256,7 @@ ol {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .team-list-text {
