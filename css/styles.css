@@ -108,7 +108,6 @@ ol {
 .header-nav {
     display: flex;
     align-items: center;
-    gap: 76px;
 }
 
 /**Contacts*/
@@ -142,13 +141,6 @@ ol {
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
-}
-
-.title-container {
-    padding-top: 188px;
-    padding-bottom: 188px;
-    padding-left: auto;
-    padding-right: auto;
 }
 
 .title-name {
@@ -226,10 +218,6 @@ ol {
     padding: 120px 0;
 }
 
-.team-container {
-    height: 732px;
-}
-
 .team-title {
     color: #2e2f42;
     font-weight: 700;
@@ -268,7 +256,7 @@ ol {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 32px;
+    margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -277,14 +265,13 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-top: 8px;
-    padding-bottom: 32px;
 }
 
 /**Section 4*/
 
 .portfolio {
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .portfolio-list {
@@ -357,6 +344,5 @@ ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 16px;
     max-width: 264px;
 }
