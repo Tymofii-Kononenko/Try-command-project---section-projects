@@ -352,7 +352,8 @@ ol {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.about-link:hover .about-list:focus {
+.about-link:hover,
+.about-list:focus {
     background-color: #404bbf;
 }
 
@@ -388,6 +389,7 @@ ol {
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 40px 32px;
 }
 
 .portfolio-list-item:hover .portfolio-cover {
