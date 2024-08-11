@@ -353,7 +353,7 @@ ol {
 }
 
 .about-link:hover,
-.about-list:focus {
+.about-link:focus {
     background-color: #404bbf;
 }
 
