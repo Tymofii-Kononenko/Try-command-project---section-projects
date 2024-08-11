@@ -164,6 +164,7 @@ ol {
 }
 
 .title {
+    max-width: 1440px;
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -171,9 +172,10 @@ ol {
             rgba(46, 47, 66, 0.7)),
         url(../images/bg-main.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    block-size: cover;
-    ;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title-name {
