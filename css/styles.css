@@ -537,3 +537,76 @@ ol {
 .footer-logo-text {
     margin-right: 120px;
 }
+
+
+.footer-form-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-email::placeholder {
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+}
+
+.footer-form {}
+
+.footer-label {}
+
+.footer-email {
+    background-color: transparent;
+    padding-left: 16px;
+    color: #ffffff;
+    min-width: 264px;
+    height: 40px;
+    flex-shrink: 0;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.footer-btn {
+    border: none;
+    min-width: 165px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #4d5ae5;
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.footer-form {
+    display: flex;
+    gap: 24px;
+    margin-left: auto;
+}
+
+.footer-form-icon {
+    margin-left: 16px;
+}
+
+.footer-btn:focus .footer-btn:hover {
+    background-color: #404bbf;
+}
+
+.footer-form-class {
+    margin-left: 80px;
+}
