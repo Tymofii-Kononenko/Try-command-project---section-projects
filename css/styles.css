@@ -542,7 +542,7 @@ ol {
 .footer-form-text {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 2;
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
@@ -693,7 +693,7 @@ ol {
 .modal-form-label {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
