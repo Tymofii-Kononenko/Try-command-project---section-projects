@@ -542,7 +542,7 @@ ol {
 .footer-form-text {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 2;
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
@@ -636,7 +636,7 @@ ol {
     background-color: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
 }
 
@@ -712,8 +712,9 @@ ol {
     width: 360px;
     height: 40px;
     padding-left: 38px;
-    outline: none;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
 }
 
 .modal-icon {
@@ -756,10 +757,15 @@ ol {
     border-radius: 4px;
     width: 360px;
     height: 120px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
     margin-bottom: 4px;
+    background-color: transparent;
+    padding: 8px 16px;
     resize: none;
-    outline: none;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea:focus {
@@ -792,6 +798,9 @@ ol {
     align-items: center;
     margin-right: 8px;
     fill: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox:checked+.custom-label-user-checkbox>.custom-checkbox {
@@ -817,6 +826,7 @@ ol {
 
 .modal-submit {
     display: block;
+    cursor: pointer;
     margin: 0 auto;
     font-weight: 500;
     font-size: 16px;
