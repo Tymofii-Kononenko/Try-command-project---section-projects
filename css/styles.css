@@ -47,8 +47,9 @@ ol {
 }
 
 .container {
-    max-width: 1158px;
-    padding: 0 15px;
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin: 0 auto;
 }
 
@@ -224,12 +225,10 @@ ol {
 
 .advantages-list {
     display: flex;
-    gap: 24px;
-    justify-content: center;
-}
-
-.advantages-list-item {
-    width: calc((100% - 72px) / 4);
+    flex-wrap: wrap;
+    gap: 72px;
+    /* gap: 24px;
+    justify-content: center; */
 }
 
 .advantages-item-border {
@@ -243,20 +242,26 @@ ol {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
+}
+
+.advantages-list-item {
+    /* width: calc((100% - 72px) / 4); */
 }
 
 .advantages-item-icon {}
 
 .advantages-list-title {
-    color: #2E2F42;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .advantages-list-text {
+    font-size: 500;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -839,4 +844,75 @@ ol {
 .modal-submit:hover,
 .modal-submit:focus {
     background-color: #404BBF;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 16px;
+    }
+
+    .advantages-list {
+        row-gap: 72px;
+        column-gap: 24px;
+
+    }
+
+    .advantages-list-item {
+        width: calc((100% - 24px) / 2);
+
+    }
+
+    .advantages-list-title {
+        text-align: left;
+    }
+
+
+
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1158px) {
+
+    .container {
+        min-width: 1158px;
+    }
+
+    .advantages-item-border {
+        display: block;
+        width: 264px;
+        height: 112px;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        background: #f4f4fd;
+        margin-bottom: 8px;
+        gap: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .advantages-list-item {
+        width: calc((100% - 72px) / 4);
+
+    }
+
+    .advantages-list-title {
+        font-weight: 500;
+        font-size: 20px;
+
+    }
+
+    .advantages-list {
+        column-gap: 24px;
+    }
+
+    .advantages-list-text {
+        font-weight: 400;
+    }
+
+
+
+
 }
