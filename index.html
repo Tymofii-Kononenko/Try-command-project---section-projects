@@ -18,8 +18,8 @@
 
 <body>
     <header class="header">
-        <!--Logo and menu of site comment-->
-        <!-- <div class="container header-container">
+        <!-- Logo and menu of site comment-->
+        <div class="container header-container">
             <nav class="header-nav">
                 <a href="./index.html" class="header-nav-logo">Web<span>Studio</span></a>
                 <ul class="header-list">
@@ -27,9 +27,9 @@
                     <li class="header-list-item"><a href="" class="header-list-link">Portfolio</a></li>
                     <li class="header-list-item"><a href="" class="header-list-link">Contacts</a></li>
                 </ul>
-            </nav> -->
-        <!--Contacts comment-->
-        <!-- <address class="address">
+            </nav>
+            <!--Contacts comment-->
+            <address class="address">
                 <ul class="address-list">
                     <li class="address-list-item"><a href="mailto:info@devstudio.com"
                             class="address-list-contact">info@devstudio.com</a></li>
@@ -37,18 +37,18 @@
                             111-11-11</a></li>
                 </ul>
             </address>
-        </div> -->
+        </div>
     </header>
     <!--Main container comment-->
     <main>
         <!--Section 1-->
-        <!-- <section class="title">
+        <section class="title">
             <div class="container title-container">
                 <h1 class="title-name">Effective Solutions for Your Business</h1>
                 <button class="tittle-button" type="button">Order Service</button>
             </div>
-        </section> -->
-        <!--Section 2 comment-->
+        </section>
+        <!--Section 2 comment (done)-->
         <section class="advantages">
             <div class="container">
                 <h2 class="visually-hidden">Empty</h2>
@@ -107,7 +107,7 @@
             </div>
         </section>
         <!--Section 3 comment-->
-        <!-- <section class="team">
+        <section class="team">
             <div class="container team-container">
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-list">
@@ -269,15 +269,25 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
         <!-- Section 4 comment-->
-        <!-- <section class="portfolio"> -->
-        <!-- <div class="container portfolio-container">
+        <section class="portfolio">
+            <div class="container portfolio-container">
                 <h2 class="portfolio-title">Our Portfolio</h2>
                 <ul class="portfolio-list">
                     <li class="portfolio-list-item">
                         <div class="image-plus-text">
-                            <img src="./images/banking-app.jpg" alt="Banking App" width="360" height="300">
+                            <picture>
+                                <source srcset="./images/banking-app.jpg 1x, ./images/banking-app-2x.jpg 2x"
+                                    media="(min-width: 1158px)" />
+                                <source
+                                    srcset="./images/banking-app-tablet.jpg 1x, ./images/banking-app-tablet-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source
+                                    srcset="./images/banking-app-mobile.jpg 1x, ./images/banking-app-mobile-2x.jpg 2x"
+                                    media="(max-width:767px)" />
+                                <img class="images-portfolio" src="./images/banking-app.jpg" alt="app" width="360" />
+                            </picture>
                             <p class="portfolio-cover">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                                 App ·
@@ -294,7 +304,17 @@
                     </li>
                     <li class="portfolio-list-item">
                         <div class="image-plus-text">
-                            <img src="./images/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300">
+                            <picture>
+                                <source srcset="./images/cashless-payment.jpg 1x, ./images/cashless-payment-2x.jpg 2x"
+                                    media="(min-width: 1158px)" />
+                                <source
+                                    srcset="./images/cashless-payment-tablet.jpg 1x, ./images/cashless-payment-tablet-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source
+                                    srcset="./images/cashless-payment-mobile.jpg 1x, ./images/cashless-payment-mobile-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <img class="images-portfolio" src="./images/cashless-payment.jpg" alt="app" width="360">
+                            </picture>
                             <p class="portfolio-cover">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                                 App ·
@@ -311,7 +331,17 @@
                     </li>
                     <li class="portfolio-list-item">
                         <div class="image-plus-text">
-                            <img src="./images/meditation-app.jpg" alt="Meditation App" width="360" height="300">
+                            <picture>
+                                <source srcset="./images/meditation-app.jpg 1x, ./images/meditation-app-2x.jpg 2x"
+                                    media="(min-width: 1158px)" />
+                                <source
+                                    srcset="./images/meditation-app-tablet.jpg 1x, ./images/meditation-app-tablet-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source
+                                    srcset="./images/meditation-app-mobile.jpg 1x, ./images/meditation-app-mobile-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <img src="./images/meditation-app.jpg" alt="app" width="360">
+                            </picture>
                             <p class="portfolio-cover">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                                 App ·
@@ -328,7 +358,17 @@
                     </li>
                     <li class="portfolio-list-item">
                         <div class="image-plus-text">
-                            <img src="./images/taxi-service.jpg" alt="Taxi Service" width="360" height="300">
+                            <picture>
+                                <source srcset="./images/taxi-service.jpg 1x, ./images/taxi-service-2x.jpg 2x"
+                                    media="(min-width: 1158px)" />
+                                <source
+                                    srcset="./images/taxi-service-tablet.jpg 1x, ./images/taxi-service-tablet-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source
+                                    srcset="./images/taxi-service-mobile.jpg 1x, ./images/taxi-service-mobile-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <img class="images-portfolio" src="./images/taxi-service.jpg" alt="app" width="360">
+                            </picture>
                             <p class="portfolio-cover">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                                 App ·
@@ -345,8 +385,19 @@
                     </li>
                     <li class="portfolio-list-item">
                         <div class="image-plus-text">
-                            <img src="./images/screen-illustrations.jpg" alt="Screen Illustrations" width="360"
-                                height="300">
+                            <picture>
+                                <source
+                                    srcset="./images/screen-illustrations.jpg 1x, ./images/screen-illustrations-2x.jpg 2x"
+                                    media="(min-width: 1158px)" />
+                                <source
+                                    srcset="./images/screen-illustrations-tablet.jpg 1x, ./images/screen-illustrations-tablet-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source
+                                    srcset="./images/screen-illustrations-mobile.jpg 1x, ./images/screen-illustrations-mobile-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <img class="images-portfolio" src="./images/screen-illustrations.jpg" alt="app"
+                                    width="360">
+                            </picture>
                             <p class="portfolio-cover">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                                 App ·
@@ -363,7 +414,17 @@
                     </li>
                     <li class="portfolio-list-item">
                         <div class="image-plus-text">
-                            <img src="./images/online-cources.jpg" alt="Online Courses" width="360" height="300">
+                            <picture>
+                                <source srcset="./images/online-cources.jpg 1x, ./images/online-courses-2x.jpg 2x"
+                                    media="(min-width: 1158px)" />
+                                <source
+                                    srcset="./images/online-courses-tablet.jpg 1x, ./images/online-courses-tablet-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source
+                                    srcset="./images/online-courses-mobile.jpg 1x, ./images/online-courses-mobile-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <img class="images-portfolio" src="./images/online-cources.jpg" alt="app" width="360">
+                            </picture>
                             <p class="portfolio-cover">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                                 App ·
@@ -381,9 +442,9 @@
                 </ul>
             </div>
         </section>
-    </main> -->
-        <!--Footer start comment-->
-        <!-- <footer class="footer">
+    </main>
+    <!-- Footer start comment-->
+    <footer class="footer">
         <div class="container footer-container">
             <div class="footer-logo-text">
                 <a href="./index.html" class="footer-logo-web">Web<span class="footer-logo-studio">Studio</span> </a>
@@ -440,9 +501,9 @@
                 </form>
             </div>
         </div>
-    </footer> -->
-        <!-- Backdrop comment-->
-        <!-- <div class="backdrop is-open">
+    </footer>
+    <!-- Backdrop comment-->
+    <!-- <div class="backdrop is-open">
         <div class="modal">
             <button type="button" class="modal-close-btn">
                 <svg class="modal-close-icon" width="8" height="8">
