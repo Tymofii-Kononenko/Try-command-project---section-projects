@@ -1126,13 +1126,13 @@ ol {
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        gap: 12px;
+        gap: 40px;
     }
 
 
     .address-list-contact {
         font-weight: 400;
-        font-size: 12px;
+        font-size: 16px;
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: #434455;
@@ -1241,6 +1241,23 @@ ol {
 
     .social-media-text {
         text-align: start;
+    }
+
+    .modal {
+        width: 408px;
+    }
+
+    .modal-input {
+        height: 40px;
+
+        width: 100%;
+
+    }
+
+    .modal-title,
+    .form-wrapper-cont,
+    .modal-textarea {
+        width: 100%;
     }
 
     @media screen and (min-width: 768px) and (max-width: 1157px) {
