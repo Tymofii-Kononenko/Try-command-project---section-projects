@@ -1365,12 +1365,10 @@ ol {
     }
 
     .footer-container {
-        display: flex;
-        justify-content: space-between;
         max-width: 1158px;
         margin: 0 auto;
         padding: 0 20px;
-        gap: 120px;
+        gap: 37px;
     }
 
     .footer-logo-web {
@@ -1393,12 +1391,18 @@ ol {
     .footer-logo-text {
         width: 264px;
         height: 112px;
-        ;
+        margin-right: 72px;
     }
 
     .footer-list {
-        display: flex;
-        justify-content: left;
+
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-list-item {
+        width: 40px;
+        height: 40px;
     }
 
     .footer-text {
@@ -1406,14 +1410,7 @@ ol {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-
-        margin-right: 0;
-    }
-
-    .footer-container {
-        display: flex;
-        flex-direction: row;
-        align-items: baseline;
+        max-width: 264px;
     }
 
     .social-media-text {
@@ -1425,14 +1422,9 @@ ol {
         margin-bottom: 16px;
     }
 
-    .footer-list {
-        display: flex;
-        gap: 16px;
-    }
-
-    .footer-list-item {
-        width: 40px;
-        height: 40px;
+    .footer-social-media {
+        margin-right: 50px;
+        margin-bottom: 0;
     }
 
     .footer-link {
@@ -1457,17 +1449,9 @@ ol {
         background-color: #31d0aa;
     }
 
-    .footer-logo-text {
-        margin-right: 120px;
-    }
+    .footer-form {
+        display: flex;
 
-    .footer-form-text {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #fff;
-        margin: 0;
     }
 
     .footer-email::placeholder {
@@ -1491,6 +1475,7 @@ ol {
         border-radius: 4px;
         border: 1px solid #fff;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
     }
 
     .footer-btn {
@@ -1509,22 +1494,6 @@ ol {
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
-    }
-
-    .footer-form {
-        display: flex;
-        gap: 24px;
-        margin-left: auto;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .footer-form-icon {
-        margin-left: 16px;
-    }
-
-    .footer-btn:focus .footer-btn:hover {
-        background-color: #404bbf;
     }
 
     .footer-form-class {
